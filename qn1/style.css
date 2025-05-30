@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b56fe4;
+  padding: 3rem;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#list {
+  width: 100%;
+  max-width: 600px;
+  background-color: #91bde0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#loading {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #a6c272;
+  font-weight: bold;
+}
+
+
+#status {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #ecd139;
+}
